@@ -9,10 +9,12 @@ public class Radio {
     }
 
     public Radio(int stationsCount) {
-        this.maxStation = stationsCount - 1;
+        maxStation = stationsCount - 1;
+
+    }
 
 
-        public void nextStation() {
+    public void nextStation() {
         if (currentStation != maxStation) {
             currentStation++;
         } else {
